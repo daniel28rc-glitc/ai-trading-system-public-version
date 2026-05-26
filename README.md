@@ -30,7 +30,7 @@ The platform follows a modular architecture in which an interactive front-end co
 
 Place the architecture diagram below.
 
-![Architecture Diagram](foto1.png)
+![Architecture Diagram](images/arquitecture.png)
 
 ## Architecture Explanation
 
