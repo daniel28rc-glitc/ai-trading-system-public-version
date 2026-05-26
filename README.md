@@ -28,8 +28,6 @@ In practical terms, the system was designed to:
 
 The platform follows a modular architecture in which an interactive front-end communicates with a graph-based orchestration layer that coordinates several specialized analytical components. Each component contributes a different perspective to the final output shown in the dashboard.
 
-Place the architecture diagram below.
-
 ![Architecture Diagram](images/arquitecture.png)
 
 ## Architecture Explanation
@@ -68,55 +66,23 @@ Main technologies and concepts used in the project include:
 
 ## Dashboard Gallery
 
-The following images should be replaced with screenshots of the `gradio_app` interface.
-
-### Dashboard View 01
-![Gradio App Screenshot 01](foto2.png)
-
-### Dashboard View 02
-![Gradio App Screenshot 02](foto3.png)
-
-### Dashboard View 03
-![Gradio App Screenshot 03](foto4.png)
-
-### Dashboard View 04
-![Gradio App Screenshot 04](foto5.png)
-
-### Dashboard View 05
-![Gradio App Screenshot 05](foto6.png)
-
-### Dashboard View 06
-![Gradio App Screenshot 06](foto7.png)
-
-### Dashboard View 07
-![Gradio App Screenshot 07](foto8.png)
-
-### Dashboard View 08
-![Gradio App Screenshot 08](foto9.png)
-
-### Dashboard View 09
-![Gradio App Screenshot 09](foto10.png)
-
-### Dashboard View 10
-![Gradio App Screenshot 10](foto11.png)
-
-### Dashboard View 11
-![Gradio App Screenshot 11](foto12.png)
-
-### Dashboard View 12
-![Gradio App Screenshot 12](foto13.png)
-
-### Dashboard View 13
-![Gradio App Screenshot 13](foto14.png)
-
-### Dashboard View 14
-![Gradio App Screenshot 14](foto15.png)
-
-### Dashboard View 15
-![Gradio App Screenshot 15](foto16.png)
-
-### Dashboard View 16
-![Gradio App Screenshot 16](foto17.png)
+### Dashboard View 
+![Gradio App Screenshot 01](images/dashboard1.png)
+![Gradio App Screenshot 02](images/dashboard2.png)
+![Gradio App Screenshot 03](images/dashboard3.png)
+![Gradio App Screenshot 04](images/dashboard4.png)
+![Gradio App Screenshot 05](images/dashboard5.png)
+![Gradio App Screenshot 06](images/dashboard6.png)
+![Gradio App Screenshot 07](images/dashboard7.png)
+![Gradio App Screenshot 08](images/dashboard8.png)
+![Gradio App Screenshot 09](images/dashboard9.png)
+![Gradio App Screenshot 10](images/dashboard10.png)
+![Gradio App Screenshot 11](images/dashboard11.png)
+![Gradio App Screenshot 12](images/dashboard12.png)
+![Gradio App Screenshot 13](images/dashboard13.png)
+![Gradio App Screenshot 14](images/dashboard14.png)
+![Gradio App Screenshot 15](images/dashboard15.png)
+![Gradio App Screenshot 16](images/dashboard16.png)
 
 ## What This Repository Includes
 
