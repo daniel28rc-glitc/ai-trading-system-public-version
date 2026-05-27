@@ -10,7 +10,7 @@ An academic project focused on the design of an intelligent investment support s
 
 This repository presents the conceptual design, interface, and system architecture of an AI-driven trading and investment analysis platform. The project was developed to explore how specialized analytical modules can collaborate within a unified workflow to generate structured financial insights and support investment interpretation.
 
-The system combines user profiling, evaluator reasoning, risk analysis, market interpretation, a FINMEM-inspired memory structure, a FINCON-style parallel agent organization, and an MDP-based decision layer. The purpose of this public repository is not to expose the private implementation, but to document the overall design approach, the architectural structure, and the user-facing dashboard in a clear and professional format.
+The system combines user profiling, evaluator reasoning, quant and risk analysis, fundamental market interpretation, a FINMEM-inspired memory structure, a FINCON-style parallel agent organization, and an MDP-based decision layer. The purpose of this public repository is not to expose the private implementation, but to document the overall design approach, the architectural structure, and the user-facing dashboard in a clear and professional format.
 
 ## Objective
 
@@ -36,9 +36,9 @@ The platform follows a modular architecture in which an interactive front-end co
 
 The overall system is organized around the following conceptual blocks:
 
-- **Interactive Interface:** A Gradio-based front-end used to present the analytical flow and the final outputs to the user.
+- **Interactive Interface:** A Gradio-based front-end used to present the analytical flow and final output to the user.
 - **Graph / Orchestration Layer:** A coordination structure that routes information across the different modules and consolidates their outputs.
-- **FINCON-Style Parallel Agents:** A parallel organization of specialized analytical agents responsible for profiling, evaluation, risk interpretation, recommendation reasoning, and complementary financial analysis.
+- **FINCON-Style Parallel Agents:** A parallel organization of specialized analytical agents responsible for fundamental analysis based on financial reports, quantitative analysis, and risk assessment based on the ticker’s historical data.
 - **FINMEM-Inspired Memory Structure:** An adaptive memory layer designed to retain selected historical context and improve continuity across analytical cycles.
 - **MDP Decision Layer:** A Markov Decision Process component designed to support structured investment interpretation through state-based decision modeling.
 
@@ -50,7 +50,7 @@ The project was guided by several technical and presentation principles:
 - **Explainability:** Outputs are designed to be interpretable rather than opaque.
 - **Parallel reasoning:** A FINCON-style agent structure enables multiple analytical perspectives to be processed in parallel.
 - **Structured memory:** A FINMEM-inspired memory design supports continuity and context retention across analytical iterations.
-- **Structured decision-making:** The MDP layer introduces a formal mechanism for organizing the final decision process.
+- **Structured decision-making:** The MDP layer introduces a formal mechanism for defining the final decision process.
 - **Scalability of reasoning:** New analytical blocks can be incorporated without redesigning the whole system.
 - **User-centered presentation:** The dashboard is intended to make complex information readable and structured.
 - **Separation of public and private layers:** The public repository documents the work without exposing the sensitive implementation details.
